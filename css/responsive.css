@@ -1,0 +1,15 @@
+/* Soluzione qui */
+@media screen and (min-width: 480px){
+    #topbar{
+        display: block;
+        width: 480px;
+        text-align: center;
+    }
+    .recipe-video img{
+        max-width: 100%;
+    }
+
+    .recipe-info{
+        margin-top: 30px;
+    }
+}
