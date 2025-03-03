@@ -13,3 +13,48 @@
         margin-top: 30px;
     }
 }
+
+@media screen and (min-width: 768px){
+    #topbar{
+        width: 768px
+    }
+
+    main{
+        padding: 40px;
+    }
+
+    .recipe-info{
+        margin-top: 50px;
+    }
+        
+    .recipe-origin{
+        display: inline;
+    }
+
+    .recipe-name .recipe-origin{
+        font-size: 2rem;
+    }
+
+    .quick-notes ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes ul li{
+        margin: 20px;
+    }
+
+    .btn{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .ads{
+        display: block;
+    }
+
+    .clearfix img {
+        float: left;
+        margin-right: 21px;
+    }
+}   
