@@ -1,9 +1,9 @@
 /* Soluzione qui */
 @media screen and (min-width: 480px){
     #topbar{
-        display: block;
-        width: 480px;
-        text-align: center;
+        display: flex;
+        width: 100%;
+        align-items: center;
     }
     .recipe-video img{
         max-width: 100%;
@@ -15,9 +15,7 @@
 }
 
 @media screen and (min-width: 768px){
-    #topbar{
-        width: 768px
-    }
+
 
     main{
         padding: 40px;
@@ -31,7 +29,7 @@
         display: inline;
     }
 
-    .recipe-name .recipe-origin{
+    .recipe-name,.recipe-origin{
         font-size: 2rem;
     }
 
@@ -58,3 +56,39 @@
         margin-right: 21px;
     }
 }   
+
+@media screen and (min-width: 992px){
+
+    .recipe-name,.recipe-origin{
+        font-size: 3rem;
+    }
+    .recipe-card{
+        display: flex;
+    }
+    
+    .recipe-video{
+        width: 100%;
+    }
+    
+    .recipe-video img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .quick-notes ul{
+        display: block;
+    }
+    
+    .quick-notes ul li{
+        margin: 20px 10px 20px 10px;
+    }
+    
+    .recipe-info{
+        width: 50%;
+    }
+    
+    .btn{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
